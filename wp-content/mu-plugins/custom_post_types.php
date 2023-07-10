@@ -15,8 +15,6 @@
 			),
 			// Icon for the WP dashboard
 			'menu_icon' => 'dashicons-welcome-learn-more'));
-
-
 			
 		register_post_type('hotel', array(
 			'show_in_rest' => true,
@@ -32,9 +30,6 @@
 			),
 			// Icon for the WP dashboard
 			'menu_icon' => 'dashicons-welcome-learn-more'));
-
-
-
 			
 		register_post_type('freelancer', array(
 			'show_in_rest' => true,
@@ -51,7 +46,5 @@
 			// Icon for the WP dashboard
 			'menu_icon' => 'dashicons-welcome-learn-more'));
 
-
 	}
 	add_action('init', "university_post_types");
-?>
